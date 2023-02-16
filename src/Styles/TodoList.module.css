@@ -1,0 +1,24 @@
+.ListBox{
+    width: 45%;
+    margin: auto;
+    /* display: flex; */
+    /* border: 1px solid red; */
+    
+}
+
+
+.ListEachBox{
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    margin-top: 20px;
+    justify-content: space-around;
+    border-radius: 20px;
+}
+
+
+
+@media screen and (min-width:80px)and (max-width:700px) {
+    .ListBox{
+        width: 90%;
+    }
+}

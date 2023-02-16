@@ -1,0 +1,56 @@
+.InputBox{
+    width: 45%;
+    margin: auto;
+    height: 120px;
+    display: flex;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    border-radius: 20px;
+}
+
+
+
+
+
+input{
+    width: 40%;
+    height: 22px;
+    border: 2px solid blueviolet;
+}
+
+
+textarea:focus, input:focus{
+    outline: 0;
+    border: 2px solid blueviolet;
+}
+
+
+.AddBtn{
+    padding: 7px 35px;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    background-color: blueviolet;
+   font-weight: 700;
+}
+
+
+.AddBtn:hover{
+    cursor: pointer;
+}
+
+
+
+@media screen and (min-width:80px)and (max-width:700px) {
+    input{
+        width: 70%;
+    }
+
+
+
+    .InputBox{
+        width: 90%;
+    }
+}
